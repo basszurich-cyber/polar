@@ -17,6 +17,33 @@ import {
 import Link from 'next/link'
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import { twMerge } from 'tailwind-merge'
+import { RoleBadge } from './RoleBadge'
+
+// Helper to extract user info from the CustomerPortalUser union type
+type CustomerPortalUser = schemas['CustomerPortalUser']
+
+function getUserInfo(user: CustomerPortalUser | undefined) {
+  if (!user) {
+    return { name: null, email: null, isMember: false, role: null }
+  }
+
+  if (user.type === 'member') {
+    return {
+      name: user.member.name,
+      email: user.member.email,
+      isMember: true,
+      role: user.member.role,
+    }
+  }
+
+  // type === 'customer'
+  return {
+    name: user.customer.name,
+    email: user.customer.email,
+    isMember: false,
+    role: null,
+  }
+}
 
 const links = (organization: schemas['CustomerOrganization']) => {
   const portalSettings = organization.customer_portal_settings
@@ -61,7 +88,8 @@ export const Navigation = ({
     searchParams.get('customer_session_token') as string,
   )
   const { data: customerPortalSession } = useCustomerPortalSession(api)
-  const { data: authenticatedCustomer } = useAuthenticatedCustomer(api)
+  const { data: authenticatedUser } = useAuthenticatedCustomer(api)
+  const userInfo = getUserInfo(authenticatedUser)
 
   // Hide navigation on routes where portal access is being requested or authenticated
   const hideNav =
@@ -90,10 +118,15 @@ export const Navigation = ({
             <span>Back to {organization.name}</span>
           </Link>
         )}
-        <div className="flex flex-col">
-          <h3>{authenticatedCustomer?.name ?? '—'}</h3>
+        <div className="flex flex-col gap-y-1">
+          <div className="flex flex-row items-center gap-x-2">
+            <h3>{userInfo.name ?? '—'}</h3>
+            {userInfo.isMember && userInfo.role && (
+              <RoleBadge role={userInfo.role} />
+            )}
+          </div>
           <span className="dark:text-polar-500 text-gray-500">
-            {authenticatedCustomer?.email ?? '—'}
+            {userInfo.email ?? '—'}
           </span>
         </div>
         <div className="flex flex-col gap-y-1">
