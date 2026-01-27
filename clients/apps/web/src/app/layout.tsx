@@ -31,9 +31,9 @@ const SITE_NAME = 'Spaire'
 const SITE_URL = 'https://spairehq.com' // <-- change if your domain differs
 const OG_IMAGE = `${SITE_URL}/og.png` // <-- make sure this exists (or change path)
 
-const DEFAULT_TITLE = `${SITE_NAME} | The Global Revenue Layer for SaaS Startups`
+const DEFAULT_TITLE = `${SITE_NAME} - Modern Merchant of Record`
 const DEFAULT_DESCRIPTION =
-  'Spaire is the financial and legal infrastructure that helps SaaS startups sell their software in 135+ countries, without the compliance headache.'
+  'Spaire handles payments, taxes, and compliance for digital products'
 
 export async function generateMetadata(): Promise<Metadata> {
   const baseMetadata: Metadata = {

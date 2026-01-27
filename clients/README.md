@@ -1,4 +1,4 @@
-# Polar Clients
+# Spaire Clients
 
 ## What's inside?
 

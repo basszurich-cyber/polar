@@ -35,7 +35,7 @@
 </div>
 <hr />
 
-## Polar: Open Source payments infrastructure for the 21st century
+## Spaire: Modern Merchant of Record
 
 Focus on building your passion, while we focus on the infrastructure to get you paid.
 
@@ -56,13 +56,13 @@ Focus on building your passion, while we focus on the infrastructure to get you 
 
 **🎯 Upcoming milestones.** [Check out what we're building towards](https://github.com/polarsource/polar/issues/3242)
 
-**💬 Shape the future of Polar with us.** [Join our Discord](https://discord.gg/Pnhfz3UThd)
+**💬 Shape the future of Spaire with us.** [Join our Discord](https://discord.gg/Pnhfz3UThd)
 
 **🐛 Found a bug?** [Submit it here](https://github.com/polarsource/polar/issues)
 
 **🔓 Found a security vulnerability?** We greatly appreciate responsible and private disclosures. See [Security](./SECURITY.md)
 
-### Polar API & SDK
+### Spaire API & SDK
 
 You can integrate Polar on your docs, sites or services using our [Public API](https://polar.sh/docs/api-reference) and [Webhook API](https://polar.sh/docs/integrate/webhooks/endpoints).
 
