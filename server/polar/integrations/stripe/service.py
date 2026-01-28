@@ -107,17 +107,16 @@ class StripeService:
             name=name,
         )
 
-        # V2 API: Use controller config, do NOT request capabilities explicitly
-        # Transfers capability is granted automatically for recipient accounts
+        # V2 API: Use controller config WITHOUT type parameter
+        # type and controller are mutually exclusive in Stripe API
         create_params: dict[str, Any] = {
             "country": account.country,
-            "type": "express",
+            # NO "type" parameter - mutually exclusive with controller
             "controller": {
                 "stripe_dashboard": {"type": "express"},
                 "fees": {"payer": "application"},
                 "losses": {"payments": "application"},
             },
-            # NO capabilities block - this is the key v2 difference!
             "settings": {
                 "payouts": {"schedule": {"interval": "manual"}},
             },
