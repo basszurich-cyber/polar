@@ -10,12 +10,12 @@ description: "Ingestion strategy for LLM Usage"
 Wrap any LLM model from the `@ai-sdk/*` library, to automatically fire prompt- & completion tokens used by every model call.
 
 ```
-pnpm add @polar-sh/ingestion ai @ai-sdk/openai
+pnpm add @spaire/ingestion ai @ai-sdk/openai
 ```
 
 ```typescript
-import { Ingestion } from "@polar-sh/ingestion";
-import { LLMStrategy } from "@polar-sh/ingestion/strategies/LLM";
+import { Ingestion } from "@spaire/ingestion";
+import { LLMStrategy } from "@spaire/ingestion/strategies/LLM";
 import { generateText } from "ai";
 import { openai } from "@ai-sdk/openai";
 

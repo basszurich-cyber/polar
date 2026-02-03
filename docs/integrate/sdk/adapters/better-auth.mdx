@@ -3,7 +3,7 @@ title: "BetterAuth"
 description: "Payments and Checkouts made dead simple with BetterAuth"
 ---
 
-## @polar-sh/better-auth
+## @spaire/better-auth
 
 A [Better Auth](https://github.com/better-auth/better-auth) plugin for integrating [Polar](https://polar.sh) payments and subscriptions into your authentication flow.
 
@@ -28,17 +28,17 @@ Install the required Better Auth and Polar packages using the following command:
 <Tabs>
   <Tab title="npm">
     ```bash Terminal
-    npm install better-auth @polar-sh/better-auth @polar-sh/sdk
+    npm install better-auth @spaire/better-auth @spaire/sdk
     ```
   </Tab>
   <Tab title="yarn">
     ```bash Terminal
-    yarn add better-auth @polar-sh/better-auth @polar-sh/sdk
+    yarn add better-auth @spaire/better-auth @spaire/sdk
     ```
   </Tab>
   <Tab title="pnpm">
     ```bash Terminal
-    pnpm add better-auth @polar-sh/better-auth @polar-sh/sdk
+    pnpm add better-auth @spaire/better-auth @spaire/sdk
     ```
   </Tab>
 </Tabs>
@@ -64,8 +64,8 @@ Install the required Better Auth and Polar packages using the following command:
 
     ```typescript icon="square-js" BetterAuth Server with Polar Example
     import { betterAuth } from "better-auth";
-    import { polar, checkout, portal, usage, webhooks } from "@polar-sh/better-auth"; // [!code ++]
-    import { Polar } from "@polar-sh/sdk"; // [!code ++]
+    import { polar, checkout, portal, usage, webhooks } from "@spaire/better-auth"; // [!code ++]
+    import { Polar } from "@spaire/sdk"; // [!code ++]
 
     const polarClient = new Polar({ // [!code ++]
         accessToken: process.env.POLAR_ACCESS_TOKEN, // [!code ++]
@@ -142,7 +142,7 @@ Install the required Better Auth and Polar packages using the following command:
 
     ```typescript icon="square-js" BetterAuth Client with Polar Example
     import { createAuthClient } from "better-auth/react";
-    import { polarClient } from "@polar-sh/better-auth"; // [!code ++]
+    import { polarClient } from "@spaire/better-auth"; // [!code ++]
     import { organizationClient } from "better-auth/client/plugins"; // [!code ++]
 
     // All Polar plugins, etc. should be attached to BetterAuth server
@@ -205,7 +205,7 @@ The checkout plugin accepts the following configuration options:
     import {
       polar,
       checkout // [!code ++]
-    } from "@polar-sh/better-auth";
+    } from "@spaire/better-auth";
 
     const auth = betterAuth({
         // ... Better Auth config
@@ -279,7 +279,7 @@ To enable [usage based billing](/integrate/sdk/adapters/better-auth) in your app
 import {
   polar, checkout, portal,
   usage // [!code ++]
-} from "@polar-sh/better-auth";
+} from "@spaire/better-auth";
 
 const auth = betterAuth({
     // ... Better Auth config
@@ -373,7 +373,7 @@ To set up the Polar `webhooks` plugin with the BetterAuth client, follow the ste
     import {
       polar,
       webhooks // [!code ++]
-    } from "@polar-sh/better-auth";
+    } from "@spaire/better-auth";
 
     const auth = betterAuth({
         // ... Better Auth config
@@ -436,7 +436,7 @@ A plugin which enables customer management of their purchases, orders and subscr
 import {
   polar, checkout,
   portal // [!code ++]
-} from "@polar-sh/better-auth";
+} from "@spaire/better-auth";
 
 const auth = betterAuth({
     // ... Better Auth config

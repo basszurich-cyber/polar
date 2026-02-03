@@ -29,7 +29,7 @@ You can provide a pre-authenticated Customer Portal Link to your customers. This
 Using the Polar API, all you need is to call the `customerSessions` endpoint. Here’s an example using our TypeScript SDK.
 
 ```typescript
-import { Polar } from "@polar-sh/sdk";
+import { Polar } from "@spaire/sdk";
 
 const polar = new Polar({
   accessToken: process.env["POLAR_ACCESS_TOKEN"] ?? "",
@@ -50,7 +50,7 @@ Or, if you use Next.js as your framework, we have a handy utility which shortens
 
 ```typescript
 // app/portal/route.ts
-import { CustomerPortal } from "@polar-sh/nextjs";
+import { CustomerPortal } from "@spaire/nextjs";
 
 export const GET = CustomerPortal({
   accessToken: process.env.POLAR_ACCESS_TOKEN,

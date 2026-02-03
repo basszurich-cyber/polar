@@ -20,7 +20,7 @@ Consider following this guide while using the Polar Sandbox Environment. This wi
 To get started, you need to install the Polar JavaScript SDK and the Polar Nextjs helper package. You can do this by running the following command:
 
 ```bash Terminal
-pnpm install @polar-sh/sdk @polar-sh/nextjs
+pnpm install @spaire/sdk @spaire/nextjs
 ```
 
 ## Setting up environment variables
@@ -37,7 +37,7 @@ To interact with the Polar API, you need to create a new instance of the `Polar`
 
 ```typescript
 // src/polar.ts
-import { Polar } from "@polar-sh/sdk";
+import { Polar } from "@spaire/sdk";
 
 export const api = new Polar({
   accessToken: process.env.POLAR_ACCESS_TOKEN!,
@@ -55,7 +55,7 @@ Go ahead and create a new GET route in Next.js.
 
 ```typescript
 // src/app/checkout/route.ts
-import { Checkout } from "@polar-sh/nextjs";
+import { Checkout } from "@spaire/nextjs";
 
 export const GET = Checkout({
   accessToken: process.env.POLAR_ACCESS_TOKEN!,
@@ -97,7 +97,7 @@ POLAR_WEBHOOK_SECRET="..."
 
 ```typescript
 // src/app/api/webhook/polar/route.ts
-import { Webhooks } from "@polar-sh/nextjs";
+import { Webhooks } from "@spaire/nextjs";
 
 export const POST = Webhooks({
 	webhookSecret: process.env.POLAR_WEBHOOK_SECRET,
@@ -113,7 +113,7 @@ Depending on which events you've subscribed to, you'll receive different payload
 
 ```typescript
 // src/app/api/webhook/polar/route.ts
-import { Webhooks } from "@polar-sh/nextjs";
+import { Webhooks } from "@spaire/nextjs";
 
 export const POST = Webhooks({
   webhookSecret: process.env.POLAR_WEBHOOK_SECRET,

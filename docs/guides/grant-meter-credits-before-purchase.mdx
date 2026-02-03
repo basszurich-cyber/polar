@@ -78,7 +78,7 @@ If your customer doesn't already exist in Polar, you need to create them first.
 Use the Polar SDK or API to create a customer programmatically:
 
 ```typescript icon="square-js" title="create-customer.ts"
-import { Polar } from "@polar-sh/sdk";
+import { Polar } from "@spaire/sdk";
 
 const polar = new Polar({
   accessToken: process.env.POLAR_ACCESS_TOKEN,
@@ -120,7 +120,7 @@ Now that you have a customer and a meter, grant credits by ingesting an event wi
 ### Using the Polar SDK
 
 ```typescript icon="square-js" title="grant-credits.ts"
-import { Polar } from "@polar-sh/sdk";
+import { Polar } from "@spaire/sdk";
 
 const polar = new Polar({
   accessToken: process.env.POLAR_ACCESS_TOKEN,
@@ -151,7 +151,7 @@ await grantCredits("cus_abc123", 10);
 If you're using `externalId` for customer management:
 
 ```typescript icon="square-js" title="grant-credits-external.ts"
-import { Polar } from "@polar-sh/sdk";
+import { Polar } from "@spaire/sdk";
 
 const polar = new Polar({
   accessToken: process.env.POLAR_ACCESS_TOKEN,
@@ -184,7 +184,7 @@ Check that the credits were successfully granted to the customer.
 ### Using Customer Meters API
 
 ```typescript
-import { Polar } from "@polar-sh/sdk";
+import { Polar } from "@spaire/sdk";
 
 const polar = new Polar({
   accessToken: process.env.POLAR_ACCESS_TOKEN,

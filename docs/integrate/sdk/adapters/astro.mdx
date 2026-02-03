@@ -15,17 +15,17 @@ Install the required Polar packages using the following command:
 <Tabs>
   <Tab title="npm">
     ```bash Terminal
-    npm install zod @polar-sh/astro
+    npm install zod @spaire/astro
     ```
   </Tab>
   <Tab title="yarn">
     ```bash Terminal
-    yarn add zod @polar-sh/astro
+    yarn add zod @spaire/astro
     ```
   </Tab>
   <Tab title="pnpm">
     ```bash Terminal
-    pnpm add zod @polar-sh/astro
+    pnpm add zod @spaire/astro
     ```
   </Tab>
 </Tabs>
@@ -35,7 +35,7 @@ Install the required Polar packages using the following command:
 Create a Checkout handler which takes care of redirections.
 
 ```typescript icon="square-js" 
-import { Checkout } from "@polar-sh/astro";
+import { Checkout } from "@spaire/astro";
 import { POLAR_ACCESS_TOKEN, POLAR_SUCCESS_URL } from "astro:env/server";
 
 export const GET = Checkout({
@@ -63,7 +63,7 @@ Pass query params to this route.
 Create a customer portal where your customer can view orders and subscriptions.
 
 ```typescript icon="square-js" 
-import { CustomerPortal } from "@polar-sh/astro";
+import { CustomerPortal } from "@spaire/astro";
 import { POLAR_ACCESS_TOKEN } from "astro:env/server";
 
 export const GET = CustomerPortal({
@@ -79,7 +79,7 @@ export const GET = CustomerPortal({
 A simple utility which resolves incoming webhook payloads by signing the webhook secret properly.
 
 ```typescript icon="square-js" 
-import { Webhooks } from '@polar-sh/astro';
+import { Webhooks } from '@spaire/astro';
 import { POLAR_WEBHOOK_SECRET } from "astro:env/server"
 
 export const POST = Webhooks({

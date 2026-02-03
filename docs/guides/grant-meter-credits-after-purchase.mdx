@@ -165,8 +165,8 @@ Create a webhook handler that listens for `order.paid` events and grants initial
 #### Next.js Example
 
 ```typescript icon="square-js" title="app/api/webhook/polar/route.ts"
-import { Polar } from "@polar-sh/sdk";
-import { Webhooks } from "@polar-sh/nextjs";
+import { Polar } from "@spaire/sdk";
+import { Webhooks } from "@spaire/nextjs";
 
 const polar = new Polar({ accessToken: process.env.POLAR_ACCESS_TOKEN });
 

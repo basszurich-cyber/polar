@@ -14,17 +14,17 @@ Install the required Polar packages using the following command:
 <Tabs>
   <Tab title="npm">
     ```bash Terminal
-    npm install zod @polar-sh/express
+    npm install zod @spaire/express
     ```
   </Tab>
   <Tab title="yarn">
     ```bash Terminal
-    yarn add zod @polar-sh/express
+    yarn add zod @spaire/express
     ```
   </Tab>
   <Tab title="pnpm">
     ```bash Terminal
-    pnpm add zod @polar-sh/express
+    pnpm add zod @spaire/express
     ```
   </Tab>
 </Tabs>
@@ -35,7 +35,7 @@ Create a Checkout handler which takes care of redirections.
 
 ```typescript
 import express from "express";
-import { Checkout } from "@polar-sh/express";
+import { Checkout } from "@spaire/express";
 
 const app = express();
 
@@ -68,7 +68,7 @@ Create a customer portal where your customer can view orders and subscriptions.
 
 ```typescript
 import express from "express";
-import { CustomerPortal } from "@polar-sh/express";
+import { CustomerPortal } from "@spaire/express";
 
 const app = express();
 
@@ -89,7 +89,7 @@ A simple utility which resolves incoming webhook payloads by signing the webhook
 
 ```typescript
 import express from 'express'
-import { Webhooks } from "@polar-sh/express";
+import { Webhooks } from "@spaire/express";
 
 const app = express()
 

@@ -45,7 +45,7 @@ Use Upstash QStash to schedule an HTTP request to your downgrade endpoint at the
 Here's a complete Next.js API route that schedules a downgrade:
 
 ```tsx title="app/api/schedule-downgrade/route.ts"
-import { Polar } from "@polar-sh/sdk";
+import { Polar } from "@spaire/sdk";
 import { Client } from "@upstash/qstash";
 import { NextRequest, NextResponse } from "next/server";
 
@@ -122,10 +122,10 @@ Create an endpoint that QStash will call at the scheduled time to execute the do
 Here's a completed Next.js API route for downgrade:
 
 ```tsx title="app/api/execute-downgrade/route.ts"
-import { Polar } from "@polar-sh/sdk";
+import { Polar } from "@spaire/sdk";
 import { NextRequest, NextResponse } from "next/server";
 import { verifySignatureAppRouter } from "@upstash/qstash/nextjs";
-import { SubscriptionProrationBehavior } from "@polar-sh/sdk/models/components/subscriptionprorationbehavior.js";
+import { SubscriptionProrationBehavior } from "@spaire/sdk/models/components/subscriptionprorationbehavior.js";
 
 const polar = new Polar({
   server: process.env.POLAR_MODE,
