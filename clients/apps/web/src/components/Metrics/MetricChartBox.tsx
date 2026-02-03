@@ -5,23 +5,23 @@ import { ParsedMetricsResponse } from '@/hooks/queries'
 import { getFormattedMetricValue } from '@/utils/metrics'
 import ArrowOutwardOutlined from '@mui/icons-material/ArrowOutwardOutlined'
 import { schemas } from '@spaire/client'
-import Button from '@polar-sh/ui/components/atoms/Button'
-import FormattedDateTime from '@polar-sh/ui/components/atoms/FormattedDateTime'
-import FormattedInterval from '@polar-sh/ui/components/atoms/FormattedInterval'
+import Button from '@spaire/ui/components/atoms/Button'
+import FormattedDateTime from '@spaire/ui/components/atoms/FormattedDateTime'
+import FormattedInterval from '@spaire/ui/components/atoms/FormattedInterval'
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@polar-sh/ui/components/atoms/Select'
-import ShadowBox from '@polar-sh/ui/components/atoms/ShadowBox'
-import { Status } from '@polar-sh/ui/components/atoms/Status'
+} from '@spaire/ui/components/atoms/Select'
+import ShadowBox from '@spaire/ui/components/atoms/ShadowBox'
+import { Status } from '@spaire/ui/components/atoms/Status'
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from '@polar-sh/ui/components/ui/tooltip'
+} from '@spaire/ui/components/ui/tooltip'
 import React, { useMemo } from 'react'
 import { twMerge } from 'tailwind-merge'
 import { Modal } from '../Modal'

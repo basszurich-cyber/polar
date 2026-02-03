@@ -3,7 +3,7 @@
 import Checkout from '@/components/Checkout/Checkout'
 import { DummyCheckoutContextProvider } from '@/components/Checkout/DummyCheckoutContextProvider'
 import { schemas } from '@spaire/client'
-import ShadowBox from '@polar-sh/ui/components/atoms/ShadowBox'
+import ShadowBox from '@spaire/ui/components/atoms/ShadowBox'
 import { CHECKOUT_PREVIEW } from '../utils'
 
 export interface CheckoutPreviewProps {

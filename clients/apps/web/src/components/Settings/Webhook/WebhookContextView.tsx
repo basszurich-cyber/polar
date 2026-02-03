@@ -9,8 +9,8 @@ import {
 import { toast } from '@/components/Toast/use-toast'
 import { useEditWebhookEndpoint } from '@/hooks/queries'
 import { schemas } from '@spaire/client'
-import Button from '@polar-sh/ui/components/atoms/Button'
-import { Form } from '@polar-sh/ui/components/ui/form'
+import Button from '@spaire/ui/components/atoms/Button'
+import { Form } from '@spaire/ui/components/ui/form'
 import { useCallback } from 'react'
 import { useForm } from 'react-hook-form'
 

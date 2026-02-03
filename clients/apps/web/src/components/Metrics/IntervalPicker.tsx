@@ -5,7 +5,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@polar-sh/ui/components/atoms/Select'
+} from '@spaire/ui/components/atoms/Select'
 import { differenceInDays } from 'date-fns'
 import { useMemo } from 'react'
 

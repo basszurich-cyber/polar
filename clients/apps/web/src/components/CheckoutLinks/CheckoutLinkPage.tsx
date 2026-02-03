@@ -2,16 +2,16 @@ import { OrganizationContext } from '@/providers/maintainerOrganization'
 import { CONFIG } from '@/utils/config'
 import QrCode from '@mui/icons-material/QrCode'
 import { schemas } from '@spaire/client'
-import Button from '@polar-sh/ui/components/atoms/Button'
-import CopyToClipboardInput from '@polar-sh/ui/components/atoms/CopyToClipboardInput'
+import Button from '@spaire/ui/components/atoms/Button'
+import CopyToClipboardInput from '@spaire/ui/components/atoms/CopyToClipboardInput'
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from '@polar-sh/ui/components/atoms/Tabs'
-import { Checkbox } from '@polar-sh/ui/components/ui/checkbox'
-import { Label } from '@polar-sh/ui/components/ui/label'
+} from '@spaire/ui/components/atoms/Tabs'
+import { Checkbox } from '@spaire/ui/components/ui/checkbox'
+import { Label } from '@spaire/ui/components/ui/label'
 import { useContext, useMemo, useState } from 'react'
 import { Modal } from '../Modal'
 import { useModal } from '../Modal/useModal'

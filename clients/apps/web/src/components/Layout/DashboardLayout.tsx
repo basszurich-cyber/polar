@@ -8,8 +8,8 @@ import { schemas } from '@spaire/client'
 import {
   SidebarTrigger,
   useSidebar,
-} from '@polar-sh/ui/components/atoms/Sidebar'
-import { Tabs, TabsList, TabsTrigger } from '@polar-sh/ui/components/atoms/Tabs'
+} from '@spaire/ui/components/atoms/Sidebar'
+import { Tabs, TabsList, TabsTrigger } from '@spaire/ui/components/atoms/Tabs'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'

@@ -5,8 +5,8 @@ import {
   useOrganizationReviewStatus,
 } from '@/hooks/queries/org'
 import { schemas } from '@spaire/client'
-import Button from '@polar-sh/ui/components/atoms/Button'
-import { Card } from '@polar-sh/ui/components/ui/card'
+import Button from '@spaire/ui/components/atoms/Button'
+import { Card } from '@spaire/ui/components/ui/card'
 import {
   AlertTriangle,
   ArrowRight,

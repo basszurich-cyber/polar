@@ -21,12 +21,12 @@ import type { CheckoutPublicConfirmed } from '@polar-sh/sdk/models/components/ch
 import type { CheckoutUpdatePublic } from '@polar-sh/sdk/models/components/checkoutupdatepublic'
 import { ProductPriceCustom } from '@polar-sh/sdk/models/components/productpricecustom.js'
 import { ExpiredCheckoutError } from '@polar-sh/sdk/models/errors/expiredcheckouterror'
-import Alert from '@polar-sh/ui/components/atoms/Alert'
+import Alert from '@spaire/ui/components/atoms/Alert'
 import ShadowBox, {
   ShadowBoxOnMd,
-} from '@polar-sh/ui/components/atoms/ShadowBox'
-import { getThemePreset } from '@polar-sh/ui/hooks/theming'
-import { cn } from '@polar-sh/ui/lib/utils'
+} from '@spaire/ui/components/atoms/ShadowBox'
+import { getThemePreset } from '@spaire/ui/hooks/theming'
+import { cn } from '@spaire/ui/lib/utils'
 import type { Stripe, StripeElements } from '@stripe/stripe-js'
 import { useTheme } from 'next-themes'
 import Link from 'next/link'

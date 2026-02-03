@@ -8,14 +8,14 @@ import { useUpdateMeter } from '@/hooks/queries/meters'
 import { apiErrorToast } from '@/utils/api/errors'
 import MoreVertOutlined from '@mui/icons-material/MoreVertOutlined'
 import { schemas } from '@spaire/client'
-import Button from '@polar-sh/ui/components/atoms/Button'
-import { Status } from '@polar-sh/ui/components/atoms/Status'
+import Button from '@spaire/ui/components/atoms/Button'
+import { Status } from '@spaire/ui/components/atoms/Status'
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@polar-sh/ui/components/ui/dropdown-menu'
+} from '@spaire/ui/components/ui/dropdown-menu'
 import { useRouter } from 'next/navigation'
 import React, { useCallback } from 'react'
 

@@ -2,7 +2,7 @@
 
 import { useDeleteOrganization } from '@/hooks/queries'
 import { schemas } from '@spaire/client'
-import Button from '@polar-sh/ui/components/atoms/Button'
+import Button from '@spaire/ui/components/atoms/Button'
 import { useRouter } from 'next/navigation'
 import { useCallback, useState } from 'react'
 import { ConfirmModal } from '../Modal/ConfirmModal'

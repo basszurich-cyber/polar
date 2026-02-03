@@ -2,14 +2,14 @@ import { useCustomerDownloadables } from '@/hooks/queries'
 import ArrowDownward from '@mui/icons-material/ArrowDownward'
 import MoreVertOutlined from '@mui/icons-material/MoreVertOutlined'
 import { Client, schemas } from '@spaire/client'
-import Button from '@polar-sh/ui/components/atoms/Button'
-import Pill from '@polar-sh/ui/components/atoms/Pill'
+import Button from '@spaire/ui/components/atoms/Button'
+import Pill from '@spaire/ui/components/atoms/Pill'
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@polar-sh/ui/components/ui/dropdown-menu'
+} from '@spaire/ui/components/ui/dropdown-menu'
 import { useCallback, useMemo } from 'react'
 import { twMerge } from 'tailwind-merge'
 import { FilePreview } from './FileList/FileListItem'

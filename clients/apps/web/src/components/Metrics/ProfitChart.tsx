@@ -5,7 +5,7 @@ import {
   getTimestampFormatter,
 } from '@/utils/metrics'
 import { schemas } from '@spaire/client'
-import ShadowBox from '@polar-sh/ui/components/atoms/ShadowBox'
+import ShadowBox from '@spaire/ui/components/atoms/ShadowBox'
 import {
   CartesianGrid,
   ChartContainer,
@@ -14,8 +14,8 @@ import {
   LineChart,
   XAxis,
   YAxis,
-} from '@polar-sh/ui/components/ui/chart'
-import { formatCurrencyAndAmount } from '@polar-sh/ui/lib/money'
+} from '@spaire/ui/components/ui/chart'
+import { formatCurrencyAndAmount } from '@spaire/ui/lib/money'
 import { useTheme } from 'next-themes'
 import { forwardRef } from 'react'
 import { twMerge } from 'tailwind-merge'

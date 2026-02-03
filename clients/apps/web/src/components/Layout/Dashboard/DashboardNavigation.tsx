@@ -9,7 +9,7 @@ import {
   SidebarMenuSub,
   SidebarMenuSubItem,
   useSidebar,
-} from '@polar-sh/ui/components/atoms/Sidebar'
+} from '@spaire/ui/components/atoms/Sidebar'
 import Link from 'next/link'
 import { twMerge } from 'tailwind-merge'
 import {

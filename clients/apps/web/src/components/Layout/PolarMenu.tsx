@@ -5,7 +5,7 @@ import { useLoginLink } from '@/hooks/login'
 import { usePostHog } from '@/hooks/posthog'
 import { CONFIG } from '@/utils/config'
 import { schemas } from '@spaire/client'
-import Button from '@polar-sh/ui/components/atoms/Button'
+import Button from '@spaire/ui/components/atoms/Button'
 import Link from 'next/link'
 import GetStartedButton from '../Auth/GetStartedButton'
 

@@ -2,9 +2,9 @@
 
 import { useCustomerPortalSessionRequest } from '@/hooks/queries'
 import { setValidationErrors } from '@/utils/api/errors'
-import Button from '@polar-sh/ui/components/atoms/Button'
-import Input from '@polar-sh/ui/components/atoms/Input'
-import ShadowBox from '@polar-sh/ui/components/atoms/ShadowBox'
+import Button from '@spaire/ui/components/atoms/Button'
+import Input from '@spaire/ui/components/atoms/Input'
+import ShadowBox from '@spaire/ui/components/atoms/ShadowBox'
 import { useRouter } from 'next/navigation'
 
 import { api } from '@/utils/client'
@@ -15,7 +15,7 @@ import {
   FormField,
   FormItem,
   FormMessage,
-} from '@polar-sh/ui/components/ui/form'
+} from '@spaire/ui/components/ui/form'
 import { useCallback } from 'react'
 import { useForm } from 'react-hook-form'
 const ClientPage = ({

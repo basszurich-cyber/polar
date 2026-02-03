@@ -15,13 +15,13 @@ import {
 import KeyboardArrowDownOutlined from '@mui/icons-material/KeyboardArrowDownOutlined'
 import KeyboardArrowRightOutlined from '@mui/icons-material/KeyboardArrowRightOutlined'
 import { schemas } from '@spaire/client'
-import Button from '@polar-sh/ui/components/atoms/Button'
+import Button from '@spaire/ui/components/atoms/Button'
 import {
   DataTable,
   DataTableColumnDef,
   DataTableColumnHeader,
-} from '@polar-sh/ui/components/atoms/DataTable'
-import FormattedDateTime from '@polar-sh/ui/components/atoms/FormattedDateTime'
+} from '@spaire/ui/components/atoms/DataTable'
+import FormattedDateTime from '@spaire/ui/components/atoms/FormattedDateTime'
 import { CellContext } from '@tanstack/react-table'
 import { useRouter } from 'next/navigation'
 import React, { useCallback } from 'react'

@@ -4,7 +4,7 @@ import { DetailRow } from '@/components/Shared/DetailRow'
 import { useSubscriptionChargePreview } from '@/hooks/queries/subscriptions'
 import { formatCurrency } from '@/utils/formatters'
 import { schemas } from '@spaire/client'
-import ShadowBox from '@polar-sh/ui/components/atoms/ShadowBox'
+import ShadowBox from '@spaire/ui/components/atoms/ShadowBox'
 
 const UpcomingChargeCard = ({
   subscription,

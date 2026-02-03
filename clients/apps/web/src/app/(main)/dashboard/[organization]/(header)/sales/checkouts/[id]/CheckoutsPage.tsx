@@ -8,9 +8,9 @@ import { ProductListItem } from '@/components/Products/ProductListItem'
 import { useCustomer } from '@/hooks/queries/customers'
 import { usePayments } from '@/hooks/queries/payments'
 import { schemas } from '@spaire/client'
-import { DataTable } from '@polar-sh/ui/components/atoms/DataTable'
-import FormattedDateTime from '@polar-sh/ui/components/atoms/FormattedDateTime'
-import { List } from '@polar-sh/ui/components/atoms/List'
+import { DataTable } from '@spaire/ui/components/atoms/DataTable'
+import FormattedDateTime from '@spaire/ui/components/atoms/FormattedDateTime'
+import { List } from '@spaire/ui/components/atoms/List'
 import React from 'react'
 
 interface ClientPageProps {

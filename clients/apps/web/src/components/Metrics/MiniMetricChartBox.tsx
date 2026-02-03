@@ -7,7 +7,7 @@ import {
   Card,
   CardContent,
   CardHeader,
-} from '@polar-sh/ui/components/atoms/Card'
+} from '@spaire/ui/components/atoms/Card'
 
 export interface MiniMetricBoxProps {
   title?: string

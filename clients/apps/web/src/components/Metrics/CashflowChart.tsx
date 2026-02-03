@@ -7,7 +7,7 @@ import {
 } from '@/utils/formatters'
 import { getTimestampFormatter } from '@/utils/metrics'
 import { schemas } from '@spaire/client'
-import ShadowBox from '@polar-sh/ui/components/atoms/ShadowBox'
+import ShadowBox from '@spaire/ui/components/atoms/ShadowBox'
 import { startOfDay, subDays } from 'date-fns'
 import {
   CircleDollarSignIcon,

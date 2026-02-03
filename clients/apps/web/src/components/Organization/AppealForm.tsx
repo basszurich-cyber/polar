@@ -6,9 +6,9 @@ import {
 } from '@/hooks/queries/org'
 import { getQueryClient } from '@/utils/api/query'
 import { schemas } from '@spaire/client'
-import Button from '@polar-sh/ui/components/atoms/Button'
-import { Card } from '@polar-sh/ui/components/ui/card'
-import { Textarea } from '@polar-sh/ui/components/ui/textarea'
+import Button from '@spaire/ui/components/atoms/Button'
+import { Card } from '@spaire/ui/components/ui/card'
+import { Textarea } from '@spaire/ui/components/ui/textarea'
 import { ArrowRight, Loader2, Send, X } from 'lucide-react'
 import React, { useEffect, useState } from 'react'
 

@@ -2,7 +2,7 @@ import { useCustomerMeters } from '@/hooks/queries/customerMeters'
 import { useMeterQuantities } from '@/hooks/queries/meters'
 import { useSubscriptions } from '@/hooks/queries/subscriptions'
 import { schemas } from '@spaire/client'
-import { TabsContent } from '@polar-sh/ui/components/atoms/Tabs'
+import { TabsContent } from '@spaire/ui/components/atoms/Tabs'
 import { useMemo } from 'react'
 import { CustomerMeter } from './CustomerMeter'
 

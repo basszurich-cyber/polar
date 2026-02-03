@@ -6,14 +6,14 @@ import {
 } from '@/components/Benefit/utils'
 import { useDeleteBenefit } from '@/hooks/queries'
 import { schemas } from '@spaire/client'
-import Button from '@polar-sh/ui/components/atoms/Button'
-import { Checkbox } from '@polar-sh/ui/components/ui/checkbox'
+import Button from '@spaire/ui/components/atoms/Button'
+import { Checkbox } from '@spaire/ui/components/ui/checkbox'
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@polar-sh/ui/components/ui/dropdown-menu'
+} from '@spaire/ui/components/ui/dropdown-menu'
 import { MoreVertical } from 'lucide-react'
 import { useCallback } from 'react'
 import { twMerge } from 'tailwind-merge'

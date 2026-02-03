@@ -4,9 +4,9 @@ import {
   DataTable,
   DataTableColumnDef,
   DataTableColumnHeader,
-} from '@polar-sh/ui/components/atoms/DataTable'
-import FormattedDateTime from '@polar-sh/ui/components/atoms/FormattedDateTime'
-import { Status } from '@polar-sh/ui/components/atoms/Status'
+} from '@spaire/ui/components/atoms/DataTable'
+import FormattedDateTime from '@spaire/ui/components/atoms/FormattedDateTime'
+import { Status } from '@spaire/ui/components/atoms/Status'
 import {
   OnChangeFn,
   PaginationState,

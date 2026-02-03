@@ -7,7 +7,7 @@ import { useEvent, useInfiniteEvents } from '@/hooks/queries/events'
 import { formatSubCentCurrency } from '@/utils/formatters'
 import KeyboardArrowUpOutlined from '@mui/icons-material/KeyboardArrowUpOutlined'
 import { schemas } from '@spaire/client'
-import Button from '@polar-sh/ui/components/atoms/Button'
+import Button from '@spaire/ui/components/atoms/Button'
 import Link from 'next/link'
 import { useMemo } from 'react'
 

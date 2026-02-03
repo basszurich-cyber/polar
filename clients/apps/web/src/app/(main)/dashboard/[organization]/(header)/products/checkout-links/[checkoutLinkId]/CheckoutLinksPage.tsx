@@ -10,13 +10,13 @@ import { usePushRouteWithoutCache } from '@/utils/router'
 import LinkOutlined from '@mui/icons-material/LinkOutlined'
 import MoreVertOutlined from '@mui/icons-material/MoreVertOutlined'
 import { schemas } from '@spaire/client'
-import Button from '@polar-sh/ui/components/atoms/Button'
+import Button from '@spaire/ui/components/atoms/Button'
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@polar-sh/ui/components/ui/dropdown-menu'
+} from '@spaire/ui/components/ui/dropdown-menu'
 import React from 'react'
 
 interface ClientPageProps {

@@ -12,7 +12,7 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from '@polar-sh/ui/components/ui/command'
+} from '@spaire/ui/components/ui/command'
 import * as Dialog from '@radix-ui/react-dialog'
 import { Loader2 } from 'lucide-react'
 import { useRouter } from 'next/navigation'

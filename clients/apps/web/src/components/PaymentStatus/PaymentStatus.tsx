@@ -3,12 +3,12 @@ import {
   PaymentStatusDisplayTitle,
 } from '@/utils/payment'
 import { schemas } from '@spaire/client'
-import { Status } from '@polar-sh/ui/components/atoms/Status'
+import { Status } from '@spaire/ui/components/atoms/Status'
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from '@polar-sh/ui/components/ui/tooltip'
+} from '@spaire/ui/components/ui/tooltip'
 import { twMerge } from 'tailwind-merge'
 
 const PaymentStatus = ({

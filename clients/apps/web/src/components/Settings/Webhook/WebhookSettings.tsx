@@ -2,9 +2,9 @@
 
 import { useListWebhooksEndpoints } from '@/hooks/queries'
 import { schemas } from '@spaire/client'
-import Button from '@polar-sh/ui/components/atoms/Button'
-import FormattedDateTime from '@polar-sh/ui/components/atoms/FormattedDateTime'
-import ShadowListGroup from '@polar-sh/ui/components/atoms/ShadowListGroup'
+import Button from '@spaire/ui/components/atoms/Button'
+import FormattedDateTime from '@spaire/ui/components/atoms/FormattedDateTime'
+import ShadowListGroup from '@spaire/ui/components/atoms/ShadowListGroup'
 import { ArrowUpRightIcon } from 'lucide-react'
 import Link from 'next/link'
 import { InlineModal } from '../../Modal/InlineModal'

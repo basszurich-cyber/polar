@@ -7,14 +7,14 @@ import { useOrders } from '@/hooks/queries/orders'
 import { useSubscriptions } from '@/hooks/queries/subscriptions'
 import { getDiscountDisplay } from '@/utils/discount'
 import { schemas } from '@spaire/client'
-import Avatar from '@polar-sh/ui/components/atoms/Avatar'
-import Button from '@polar-sh/ui/components/atoms/Button'
+import Avatar from '@spaire/ui/components/atoms/Avatar'
+import Button from '@spaire/ui/components/atoms/Button'
 import {
   DataTable,
   DataTableColumnHeader,
-} from '@polar-sh/ui/components/atoms/DataTable'
-import FormattedDateTime from '@polar-sh/ui/components/atoms/FormattedDateTime'
-import { formatCurrencyAndAmount } from '@polar-sh/ui/lib/money'
+} from '@spaire/ui/components/atoms/DataTable'
+import FormattedDateTime from '@spaire/ui/components/atoms/FormattedDateTime'
+import { formatCurrencyAndAmount } from '@spaire/ui/lib/money'
 import Link from 'next/link'
 
 export interface ProductOverviewProps {

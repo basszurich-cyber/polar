@@ -14,13 +14,13 @@ import {
   Card,
   CardContent,
   CardHeader,
-} from '@polar-sh/ui/components/atoms/Card'
+} from '@spaire/ui/components/atoms/Card'
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from '@polar-sh/ui/components/atoms/Tabs'
+} from '@spaire/ui/components/atoms/Tabs'
 import { endOfMonth, startOfMonth, subMonths } from 'date-fns'
 import { useCallback, useContext, useMemo, useState } from 'react'
 import DateRangePicker from '../Metrics/DateRangePicker'
