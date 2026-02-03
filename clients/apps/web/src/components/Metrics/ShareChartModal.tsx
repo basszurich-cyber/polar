@@ -1,5 +1,5 @@
 import { ParsedMetricsResponse } from '@/hooks/queries/metrics'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import {
   Tooltip,

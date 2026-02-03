@@ -1,6 +1,6 @@
 import { useOrder } from '@/hooks/queries/orders'
 import { OrganizationContext } from '@/providers/maintainerOrganization'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import { Status } from '@polar-sh/ui/components/atoms/Status'
 import { formatCurrencyAndAmount } from '@polar-sh/ui/lib/money'
 import Link from 'next/link'

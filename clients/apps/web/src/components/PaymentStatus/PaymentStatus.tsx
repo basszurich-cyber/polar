@@ -2,7 +2,7 @@ import {
   PaymentStatusDisplayColor,
   PaymentStatusDisplayTitle,
 } from '@/utils/payment'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import { Status } from '@polar-sh/ui/components/atoms/Status'
 import {
   Tooltip,

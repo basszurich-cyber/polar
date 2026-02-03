@@ -1,6 +1,6 @@
 'use client'
 
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Input from '@polar-sh/ui/components/atoms/Input'
 import {
   Select,

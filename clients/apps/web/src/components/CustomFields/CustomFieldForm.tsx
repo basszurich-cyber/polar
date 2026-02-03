@@ -1,5 +1,5 @@
 import ClearOutlined from '@mui/icons-material/ClearOutlined'
-import { enums, schemas } from '@polar-sh/client'
+import { enums, schemas } from '@spaire/client'
 import {
   Accordion,
   AccordionContent,

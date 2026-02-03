@@ -15,7 +15,7 @@ import {
 } from '@/utils/datatable'
 import AddOutlined from '@mui/icons-material/AddOutlined'
 import MoreVertOutlined from '@mui/icons-material/MoreVertOutlined'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import {
   DataTable,

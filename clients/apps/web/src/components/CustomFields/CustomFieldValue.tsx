@@ -1,6 +1,6 @@
 import CheckOutlined from '@mui/icons-material/CheckOutlined'
 import CloseOutlined from '@mui/icons-material/CloseOutlined'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import FormattedDateTime from '@polar-sh/ui/components/atoms/FormattedDateTime'
 import TextArea from '@polar-sh/ui/components/atoms/TextArea'
 

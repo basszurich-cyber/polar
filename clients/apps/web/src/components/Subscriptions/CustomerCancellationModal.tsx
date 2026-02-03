@@ -4,7 +4,7 @@ import revalidate from '@/app/actions'
 import { Modal, ModalProps } from '@/components/Modal'
 import { useCustomerCancelSubscription } from '@/hooks/queries'
 import { setValidationErrors } from '@/utils/api/errors'
-import { isValidationError, schemas } from '@polar-sh/client'
+import { isValidationError, schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import TextArea from '@polar-sh/ui/components/atoms/TextArea'
 import {

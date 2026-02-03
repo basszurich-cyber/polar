@@ -6,7 +6,7 @@ import {
   useCustomerUpdateSubscription,
 } from '@/hooks/queries'
 import { hasLegacyRecurringPrices } from '@/utils/product'
-import { Client, schemas, unwrap } from '@polar-sh/client'
+import { Client, schemas, unwrap } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import { List, ListItem } from '@polar-sh/ui/components/atoms/List'
 import { Checkbox } from '@polar-sh/ui/components/ui/checkbox'

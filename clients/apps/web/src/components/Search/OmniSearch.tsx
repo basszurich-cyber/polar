@@ -5,7 +5,7 @@ import {
   useOrganizationRoutes,
 } from '@/components/Dashboard/navigation'
 import { getServerURL } from '@/utils/api'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import {
   Command,
   CommandGroup,

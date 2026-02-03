@@ -1,6 +1,6 @@
 'use client'
 
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Avatar from '@polar-sh/ui/components/atoms/Avatar'
 import Link from 'next/link'
 import { useEffect, useMemo } from 'react'

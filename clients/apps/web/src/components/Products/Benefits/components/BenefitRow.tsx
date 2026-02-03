@@ -5,7 +5,7 @@ import {
   resolveBenefitIcon,
 } from '@/components/Benefit/utils'
 import { useDeleteBenefit } from '@/hooks/queries'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import { Checkbox } from '@polar-sh/ui/components/ui/checkbox'
 import {

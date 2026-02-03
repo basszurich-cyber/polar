@@ -1,6 +1,6 @@
 'use client'
 
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import FormattedDateTime from '@polar-sh/ui/components/atoms/FormattedDateTime'
 import TextArea from '@polar-sh/ui/components/atoms/TextArea'
 import { formatCurrencyAndAmount } from '@polar-sh/ui/lib/money'

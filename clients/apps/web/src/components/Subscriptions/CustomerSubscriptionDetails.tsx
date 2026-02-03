@@ -7,7 +7,7 @@ import {
   useCustomerCancelSubscription,
   useCustomerUncancelSubscription,
 } from '@/hooks/queries'
-import { Client, schemas } from '@polar-sh/client'
+import { Client, schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import FormattedDateTime from '@polar-sh/ui/components/atoms/FormattedDateTime'
 import ShadowBox from '@polar-sh/ui/components/atoms/ShadowBox'

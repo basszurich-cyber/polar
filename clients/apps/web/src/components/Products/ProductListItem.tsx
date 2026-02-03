@@ -11,7 +11,7 @@ import {
   isSeatBasedPrice,
 } from '@/utils/product'
 import MoreVertOutlined from '@mui/icons-material/MoreVertOutlined'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import { ListItem } from '@polar-sh/ui/components/atoms/List'
 import Pill from '@polar-sh/ui/components/atoms/Pill'

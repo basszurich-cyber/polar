@@ -1,6 +1,6 @@
 import { ParsedMeterQuantities } from '@/hooks/queries/meters'
 import { ParsedMetricPeriod } from '@/hooks/queries/metrics'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import FormattedDateTime from '@polar-sh/ui/components/atoms/FormattedDateTime'
 import FormattedInterval from '@polar-sh/ui/components/atoms/FormattedInterval'
 import ShadowBox from '@polar-sh/ui/components/atoms/ShadowBox'

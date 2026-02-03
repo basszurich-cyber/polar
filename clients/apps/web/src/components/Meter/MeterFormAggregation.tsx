@@ -1,6 +1,6 @@
 'use client'
 
-import { enums, schemas } from '@polar-sh/client'
+import { enums, schemas } from '@spaire/client'
 import Input from '@polar-sh/ui/components/atoms/Input'
 import {
   FormControl,

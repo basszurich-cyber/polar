@@ -18,7 +18,7 @@ import {
 } from '@polar-sh/ui/components/atoms/Select'
 import { Tabs, TabsList, TabsTrigger } from '@polar-sh/ui/components/atoms/Tabs'
 
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import DateTimePicker from '@polar-sh/ui/components/atoms/DateTimePicker'
 import {
   FormControl,

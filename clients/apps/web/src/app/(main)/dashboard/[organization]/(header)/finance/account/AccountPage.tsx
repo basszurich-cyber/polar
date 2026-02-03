@@ -15,7 +15,7 @@ import {
 } from '@/hooks/queries'
 import { useOrganizationReviewStatus } from '@/hooks/queries/org'
 import { api } from '@/utils/client'
-import { schemas, unwrap } from '@polar-sh/client'
+import { schemas, unwrap } from '@spaire/client'
 import { ShadowBoxOnMd } from '@polar-sh/ui/components/atoms/ShadowBox'
 import { Separator } from '@polar-sh/ui/components/ui/separator'
 import { loadStripe } from '@stripe/stripe-js'

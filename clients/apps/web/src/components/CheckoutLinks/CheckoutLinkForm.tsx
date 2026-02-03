@@ -8,7 +8,7 @@ import {
 import { setValidationErrors } from '@/utils/api/errors'
 import { getDiscountDisplay } from '@/utils/discount'
 import ClearOutlined from '@mui/icons-material/ClearOutlined'
-import { isValidationError, schemas } from '@polar-sh/client'
+import { isValidationError, schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import { Combobox } from '@polar-sh/ui/components/atoms/Combobox'
 import Input from '@polar-sh/ui/components/atoms/Input'

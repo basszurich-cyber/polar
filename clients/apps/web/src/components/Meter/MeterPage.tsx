@@ -9,7 +9,7 @@ import { ParsedMetricPeriod } from '@/hooks/queries/metrics'
 import { OrganizationContext } from '@/providers/maintainerOrganization'
 import { dateRangeToInterval } from '@/utils/metrics'
 import { UTCDate } from '@date-fns/utc'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import {
   Card,
   CardContent,

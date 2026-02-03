@@ -1,5 +1,5 @@
 import { InlineModal } from '@/components/Modal/InlineModal'
-import { enums, type schemas } from '@polar-sh/client'
+import { enums, type schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import CountryPicker from '@polar-sh/ui/components/atoms/CountryPicker'
 import CountryStatePicker from '@polar-sh/ui/components/atoms/CountryStatePicker'

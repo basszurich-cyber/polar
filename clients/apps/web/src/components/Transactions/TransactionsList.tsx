@@ -3,7 +3,7 @@ import {
   DataTablePaginationState,
   DataTableSortingState,
 } from '@/utils/datatable'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import {
   DataTable,
   DataTableColumnDef,

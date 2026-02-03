@@ -5,7 +5,7 @@ import {
   useOrganizationReviewStatus,
 } from '@/hooks/queries/org'
 import { getQueryClient } from '@/utils/api/query'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import { Card } from '@polar-sh/ui/components/ui/card'
 import { Textarea } from '@polar-sh/ui/components/ui/textarea'

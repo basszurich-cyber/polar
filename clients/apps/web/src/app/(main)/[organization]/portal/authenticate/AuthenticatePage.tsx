@@ -3,7 +3,7 @@
 import { useCustomerPortalSessionAuthenticate } from '@/hooks/queries'
 import { setValidationErrors } from '@/utils/api/errors'
 import { api } from '@/utils/client'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import {
   InputOTP,

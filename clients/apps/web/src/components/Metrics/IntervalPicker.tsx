@@ -1,4 +1,4 @@
-import { enums, schemas } from '@polar-sh/client'
+import { enums, schemas } from '@spaire/client'
 import {
   Select,
   SelectContent,

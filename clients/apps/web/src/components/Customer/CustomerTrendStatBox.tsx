@@ -4,7 +4,7 @@ import {
   formatPercentage,
   formatSubCentCurrency,
 } from '@/utils/formatters'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import {
   Tooltip,
   TooltipContent,

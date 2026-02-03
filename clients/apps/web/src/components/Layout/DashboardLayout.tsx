@@ -4,7 +4,7 @@ import LogoIcon from '@/components/Brand/LogoIcon'
 import { useAuth } from '@/hooks/auth'
 import { OrganizationContext } from '@/providers/maintainerOrganization'
 import { setLastVisitedOrg } from '@/utils/cookies'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import {
   SidebarTrigger,
   useSidebar,

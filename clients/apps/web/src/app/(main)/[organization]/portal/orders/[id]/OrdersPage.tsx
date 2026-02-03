@@ -2,7 +2,7 @@
 
 import CustomerPortalOrder from '@/components/CustomerPortal/CustomerPortalOrder'
 import { createClientSideAPI } from '@/utils/client'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import { getThemePreset } from '@polar-sh/ui/hooks/theming'
 import { useTheme } from 'next-themes'
 

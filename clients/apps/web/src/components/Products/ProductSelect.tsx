@@ -1,6 +1,6 @@
 import { useProducts, useSelectedProducts } from '@/hooks/queries'
 import ExpandMoreOutlined from '@mui/icons-material/ExpandMoreOutlined'
-import { operations, schemas } from '@polar-sh/client'
+import { operations, schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import {
   Command,

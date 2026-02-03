@@ -11,7 +11,7 @@ import {
   isStaticPrice,
 } from '@/utils/product'
 import CloseOutlined from '@mui/icons-material/CloseOutlined'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import Input from '@polar-sh/ui/components/atoms/Input'
 import MoneyInput from '@polar-sh/ui/components/atoms/MoneyInput'

@@ -1,7 +1,7 @@
 import { useUpdateOrganization } from '@/hooks/queries'
 import { useAutoSave } from '@/hooks/useAutoSave'
 import { setValidationErrors } from '@/utils/api/errors'
-import { isValidationError, schemas } from '@polar-sh/client'
+import { isValidationError, schemas } from '@spaire/client'
 import Switch from '@polar-sh/ui/components/atoms/Switch'
 import {
   Form,

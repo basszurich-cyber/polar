@@ -7,7 +7,7 @@ import { useModal } from '@/components/Modal/useModal'
 import PublicProfileDropdown from '@/components/Navigation/PublicProfileDropdown'
 import Popover from '@/components/Notifications/NotificationsPopover'
 import { usePostHog } from '@/hooks/posthog'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import { usePathname } from 'next/navigation'
 

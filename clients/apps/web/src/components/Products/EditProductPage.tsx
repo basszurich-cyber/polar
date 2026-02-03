@@ -6,7 +6,7 @@ import {
 } from '@/hooks/queries'
 import { setProductValidationErrors } from '@/utils/api/errors'
 import { ProductEditOrCreateForm } from '@/utils/product'
-import { isValidationError, schemas } from '@polar-sh/client'
+import { isValidationError, schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import { Form } from '@polar-sh/ui/components/ui/form'
 import { useRouter } from 'next/navigation'

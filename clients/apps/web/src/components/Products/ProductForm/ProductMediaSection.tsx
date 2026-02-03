@@ -1,7 +1,7 @@
 'use client'
 
 import { Section } from '@/components/Layout/Section'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import {
   FormControl,
   FormField,

@@ -1,6 +1,6 @@
 import { api } from '@/utils/client'
 import ArrowOutwardOutlined from '@mui/icons-material/ArrowOutwardOutlined'
-import { isValidationError, schemas } from '@polar-sh/client'
+import { isValidationError, schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import { formatCurrencyAndAmount } from '@polar-sh/ui/lib/money'
 import Link from 'next/link'

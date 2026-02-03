@@ -1,5 +1,5 @@
 import { setValidationErrors } from '@/utils/api/errors'
-import { enums, type schemas } from '@polar-sh/client'
+import { enums, type schemas } from '@spaire/client'
 import { isValidationError } from '@polar-sh/customer-portal/core'
 import { useCustomerPortalCustomer } from '@polar-sh/customer-portal/react'
 import Button from '@polar-sh/ui/components/atoms/Button'

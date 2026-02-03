@@ -1,6 +1,6 @@
 'use client'
 
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import { CustomerPortalProvider } from '@polar-sh/customer-portal/react'
 import { useRouter, useSearchParams } from 'next/navigation'
 

@@ -4,7 +4,7 @@ import {
   getTickFormatter,
   getTimestampFormatter,
 } from '@/utils/metrics'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import ShadowBox from '@polar-sh/ui/components/atoms/ShadowBox'
 import {
   CartesianGrid,

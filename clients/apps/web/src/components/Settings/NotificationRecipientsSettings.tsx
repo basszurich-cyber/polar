@@ -1,7 +1,7 @@
 'use client'
 
 import { useListNotificationRecipients } from '@/hooks/queries/notifications'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import ShadowListGroup from '@polar-sh/ui/components/atoms/ShadowListGroup'
 
 const NotificationRecipientItem = ({

@@ -3,7 +3,7 @@
 import { useCustomerOrders } from '@/hooks/queries'
 import { api } from '@/utils/client'
 import { organizationPageLink } from '@/utils/nav'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import {
   Select,
   SelectContent,

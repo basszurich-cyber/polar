@@ -2,7 +2,7 @@
 
 import { usePostHog, type EventName } from '@/hooks/posthog'
 import { getGitHubAuthorizeLoginURL } from '@/utils/auth'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import Link from 'next/link'
 import { twMerge } from 'tailwind-merge'

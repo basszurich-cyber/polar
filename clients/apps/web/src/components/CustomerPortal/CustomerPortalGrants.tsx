@@ -1,4 +1,4 @@
-import { Client, schemas } from '@polar-sh/client'
+import { Client, schemas } from '@spaire/client'
 import { List, ListItem } from '@polar-sh/ui/components/atoms/List'
 import { BenefitGrant } from '../Benefit/BenefitGrant'
 

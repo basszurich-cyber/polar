@@ -1,4 +1,4 @@
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Pill from '@polar-sh/ui/components/atoms/Pill'
 import { CircleX, Clock } from 'lucide-react'
 import { useMemo } from 'react'

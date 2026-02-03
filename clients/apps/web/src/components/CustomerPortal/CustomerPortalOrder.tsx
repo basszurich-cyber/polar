@@ -10,7 +10,7 @@ import {
 } from '@/hooks/queries'
 import { canRetryOrderPayment } from '@/utils/order'
 import { validateEmail } from '@/utils/validation'
-import { Client, schemas } from '@polar-sh/client'
+import { Client, schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import Input from '@polar-sh/ui/components/atoms/Input'
 import { List, ListItem } from '@polar-sh/ui/components/atoms/List'

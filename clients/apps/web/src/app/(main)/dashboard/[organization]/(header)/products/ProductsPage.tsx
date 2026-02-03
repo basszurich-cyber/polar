@@ -14,7 +14,7 @@ import {
 import AddOutlined from '@mui/icons-material/AddOutlined'
 import HiveOutlined from '@mui/icons-material/HiveOutlined'
 import Search from '@mui/icons-material/Search'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import Input from '@polar-sh/ui/components/atoms/Input'
 import { List } from '@polar-sh/ui/components/atoms/List'

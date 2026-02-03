@@ -1,7 +1,7 @@
 'use client'
 
 import ArrowBack from '@mui/icons-material/ArrowBack'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import {
   SidebarMenu,
   SidebarMenuButton,

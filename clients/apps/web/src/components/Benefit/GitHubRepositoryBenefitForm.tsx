@@ -4,7 +4,7 @@ import { useUserSSE } from '@/hooks/sse'
 import { getGitHubRepositoryBenefitAuthorizeURL } from '@/utils/auth'
 import { defaultApiUrl } from '@/utils/domain'
 import RefreshOutlined from '@mui/icons-material/RefreshOutlined'
-import { enums, schemas } from '@polar-sh/client'
+import { enums, schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import {
   Select,

@@ -3,7 +3,7 @@
 import MeterFilterInput from '@/components/Meter/MeterFilterInput'
 import MeterFilterReadOnlyConfiguration from '@/components/Meter/MeterFilterReadOnlyConfiguration'
 import MeterFormAggregation from '@/components/Meter/MeterFormAggregation'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Input from '@polar-sh/ui/components/atoms/Input'
 import {
   FormControl,

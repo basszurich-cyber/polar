@@ -9,7 +9,7 @@ import PublicProfileDropdown from '@/components/Navigation/PublicProfileDropdown
 import { useAuth } from '@/hooks'
 import { useProduct } from '@/hooks/queries'
 import ArrowBack from '@mui/icons-material/ArrowBack'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import { Tabs, TabsList, TabsTrigger } from '@polar-sh/ui/components/atoms/Tabs'
 import { Form } from '@polar-sh/ui/components/ui/form'

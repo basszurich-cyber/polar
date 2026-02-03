@@ -1,6 +1,6 @@
 import { toast } from '@/components/Toast/use-toast'
 import { useCustomerLicenseKey } from '@/hooks/queries'
-import { Client, schemas } from '@polar-sh/client'
+import { Client, schemas } from '@spaire/client'
 import CopyToClipboardInput from '@polar-sh/ui/components/atoms/CopyToClipboardInput'
 import { LicenseKeyActivations } from './LicenseKeyActivations'
 import { LicenseKeyDetails } from './LicenseKeyDetails'

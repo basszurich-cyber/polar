@@ -1,6 +1,6 @@
 import { ACCOUNT_TYPE_DISPLAY_NAMES } from '@/utils/account'
 import { api } from '@/utils/client'
-import { schemas, unwrap } from '@polar-sh/client'
+import { schemas, unwrap } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import { useMemo } from 'react'
 import { twMerge } from 'tailwind-merge'

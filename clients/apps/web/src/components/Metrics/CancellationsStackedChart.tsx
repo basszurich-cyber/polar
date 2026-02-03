@@ -2,7 +2,7 @@
 
 import { ParsedMetricsResponse } from '@/hooks/queries'
 import { getTimestampFormatter } from '@/utils/metrics'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import {
   Bar,
   BarChart,

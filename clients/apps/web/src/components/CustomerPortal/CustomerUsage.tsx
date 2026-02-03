@@ -2,7 +2,7 @@
 
 import { useCustomerCustomerMeters } from '@/hooks/queries'
 import Search from '@mui/icons-material/Search'
-import { Client } from '@polar-sh/client'
+import { Client } from '@spaire/client'
 import { DataTable } from '@polar-sh/ui/components/atoms/DataTable'
 import Input from '@polar-sh/ui/components/atoms/Input'
 import { Tabs, TabsContent } from '@polar-sh/ui/components/atoms/Tabs'

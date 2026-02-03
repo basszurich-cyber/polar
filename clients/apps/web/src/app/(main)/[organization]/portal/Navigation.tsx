@@ -6,7 +6,7 @@ import {
 } from '@/hooks/queries'
 import { createClientSideAPI } from '@/utils/client'
 import ArrowBackOutlined from '@mui/icons-material/ArrowBackOutlined'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import {
   Select,
   SelectContent,

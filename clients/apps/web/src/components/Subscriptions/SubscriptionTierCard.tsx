@@ -6,7 +6,7 @@ import {
   useRecurringProductPrice,
 } from '@/hooks/products'
 import { markdownOptionsJustText } from '@/utils/markdown'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import {
   Card,
   CardContent,

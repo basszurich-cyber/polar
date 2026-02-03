@@ -21,7 +21,7 @@ import * as React from 'react'
 
 import { OrganizationContext } from '@/providers/maintainerOrganization'
 import CalendarMonthOutlined from '@mui/icons-material/CalendarMonthOutlined'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import FormattedInterval from '@polar-sh/ui/components/atoms/FormattedInterval'
 import { Calendar } from '@polar-sh/ui/components/ui/calendar'
 import {

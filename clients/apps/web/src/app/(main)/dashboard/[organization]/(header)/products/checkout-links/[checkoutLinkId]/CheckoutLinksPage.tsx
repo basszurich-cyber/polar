@@ -9,7 +9,7 @@ import { useDeleteCheckoutLink } from '@/hooks/queries'
 import { usePushRouteWithoutCache } from '@/utils/router'
 import LinkOutlined from '@mui/icons-material/LinkOutlined'
 import MoreVertOutlined from '@mui/icons-material/MoreVertOutlined'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import {
   DropdownMenu,

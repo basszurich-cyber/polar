@@ -2,7 +2,7 @@
 
 import { usePostHog } from '@/hooks/posthog'
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import { ComponentProps, FormEvent, useCallback, useMemo } from 'react'
 import { twMerge } from 'tailwind-merge'

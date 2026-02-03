@@ -4,7 +4,7 @@ import {
 } from '@/components/Benefit/utils'
 import { useBenefit } from '@/hooks/queries'
 import { OrganizationContext } from '@/providers/maintainerOrganization'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import { Status } from '@polar-sh/ui/components/atoms/Status'
 import Link from 'next/link'
 import { useContext, useMemo } from 'react'

@@ -1,5 +1,5 @@
 import { CheckoutStatusDisplayTitle } from '@/utils/checkout'
-import { enums } from '@polar-sh/client'
+import { enums } from '@spaire/client'
 import {
   Select,
   SelectContent,

@@ -19,7 +19,7 @@ import { useDateRange } from '@/utils/date'
 import { usePushRouteWithoutCache } from '@/utils/router'
 
 import MoreVert from '@mui/icons-material/MoreVert'
-import { schemas } from '@polar-sh/client'
+import { schemas } from '@spaire/client'
 import Avatar from '@polar-sh/ui/components/atoms/Avatar'
 import Button from '@polar-sh/ui/components/atoms/Button'
 import {
