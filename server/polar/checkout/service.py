@@ -195,7 +195,7 @@ class TrialAlreadyRedeemed(CheckoutError):
         super().__init__(message, 403)
 
 
-CHECKOUT_CLIENT_SECRET_PREFIX = "polar_c_"
+CHECKOUT_CLIENT_SECRET_PREFIX = "spaire_c_"
 
 
 class CheckoutService:
